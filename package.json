@@ -11,7 +11,10 @@
   "type": "git",
     "url": "https://github.com/dkumar09/psychic-waddle.git"
   },
-  
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.2.1",
+    "upper-case": "^1.1.3"
+  }
 }
