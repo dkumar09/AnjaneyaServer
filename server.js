@@ -2,7 +2,6 @@ var http = require("http");
 var url = require('url');//used to parse url. required for checking whether to upload file or return an image 
 var fs= require('fs');//required for file system. used for saving a file
 var fs2= require('fs');
-var uc = require('upper-case');
 var form1=require('formidable');//used for parsing form and acessing form element.
 var rs1= fs.createReadStream('./form.html');//read file form.html
 var d = require('date-and-time');//used for acessing system dateand time
