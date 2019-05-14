@@ -18,13 +18,12 @@ http.createServer(function (request, response) {
       var fold = fields.key;//fold contains key ie the name of user.
       //var mail = fields.mail;
       if (!fs.existsSync('c:cd/' + fold)) {//checks whether folder exist or not
-        fs.mkdirSync('c:cd/' + fold);//creates folder if it does not exist
+        fs.mkdirSync('c:cd/' + fold);//creates folder if it does not existnp
       }
 
       var old = files.filetoupload.path;
       var now = new Date();
-      asd = d.format(now, 'MM_DD_YYYY_HH_mm_ss_SSS');// stores current date at the ime of upload.
-
+      asd = d.format(now, 'MM_DD_YYYY_HH_mm_ss_SSS');// storjes current date at the ime of upload.
       var newp = "c:/cd/" + fold + '/' + asd + ".jpeg";//crees file in the user folder
       fs.rename(old, newp, function (err) {
         if (err) {
