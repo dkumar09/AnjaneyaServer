@@ -1,4 +1,4 @@
-# psychic-waddle
+# Anjaneya Server
 Nodejs server for uploading file.
 
 To run server first install node js.
